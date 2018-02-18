@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="230dp"
+    android:padding="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/titletag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="방송제목"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="25dp"
+
+            />
+        <TextView
+            android:id="@+id/viewernumbertag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시청인원"
+            android:layout_below="@+id/titletag"
+            android:layout_alignLeft="@id/titletag"
+            android:layout_marginBottom="25dp"
+            />
+        <TextView
+            android:id="@+id/passwordtag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호"
+            android:layout_below="@id/viewernumbertag"
+            android:layout_alignLeft="@id/titletag"
+            android:layout_marginBottom="25dp"
+            />
+
+        <Button
+            android:layout_below="@id/passwordtag"
+            android:id="@+id/tvstartbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="방송시작"
+
+            />
+
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_alignBaseline="@id/titletag"
+            />
+        
+        <Spinner
+            android:id="@+id/viewerspinner"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="@+id/viewernumbertag"
+            android:layout_alignLeft="@+id/title"
+            android:layout_below="@id/title"
+            android:layout_marginTop="10dp"
+            >
+        </Spinner>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/title"
+            android:layout_below="@id/viewerspinner"
+            android:layout_alignBaseline="@id/passwordtag"
+            />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

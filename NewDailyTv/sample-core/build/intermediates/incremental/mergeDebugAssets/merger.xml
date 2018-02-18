@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\user\androidproject\NewDailyTv\sample-core\src\main\assets"><file name="qb_config.json" path="C:\Users\user\androidproject\NewDailyTv\sample-core\src\main\assets\qb_config.json"/></source><source path="C:\Users\user\androidproject\NewDailyTv\sample-core\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\user\androidproject\NewDailyTv\sample-core\src\debug\assets"/></dataSet></merger>

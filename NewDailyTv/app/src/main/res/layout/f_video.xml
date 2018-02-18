@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipe_videogridview"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <in.srain.cube.views.GridViewWithHeaderAndFooter
+        android:id="@+id/videogridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:numColumns="2"
+        android:stretchMode="columnWidth">
+    </in.srain.cube.views.GridViewWithHeaderAndFooter>
+</android.support.v4.widget.SwipeRefreshLayout>
+

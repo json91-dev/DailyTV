@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="230dip"
+    android:layout_height="150dip"
+
+    >
+    <RelativeLayout
+        android:layout_width="230dip"
+        android:layout_height="150dip"
+        android:paddingTop="10dip"
+        android:paddingLeft="20dip"
+        android:background="#000000"
+
+        >
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/trendtv"
+            android:id="@+id/image"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/image"
+            android:text="이디야 커피"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="40dip"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="010-6284-8051"
+            android:layout_below="@+id/title"
+            android:layout_alignLeft="@id/title"
+            android:layout_marginTop="15dip"
+            android:textColor="#A6A6A6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:text="자세히 보기 [VR]"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:textColor="#ff0000"
+
+            />
+
+        <!--
+        <Button
+            android:layout_marginTop="5dip"
+            android:id="@+id/detail"
+            android:layout_width="85dip"
+            android:layout_height="35dip"
+            android:text="자세히보기"
+            android:layout_below="@+id/image"
+            android:textSize="12dip"
+            android:background="@drawable/button4"
+
+            />
+        <Button
+            android:id="@+id/findroad"
+            android:layout_width="85dip"
+            android:layout_height="35dip"
+            android:textSize="12dip"
+            android:layout_toRightOf="@+id/detail"
+            android:text="길찾기"
+            android:layout_alignTop="@id/detail"
+            android:background="@drawable/button4"
+            android:layout_marginLeft="5dip"
+            />
+           -->
+
+
+
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+

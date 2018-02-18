@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view_login_activity"
+    style="@style/MatchParent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/padding_start"
+    >
+
+    <TextView
+        style="@style/MatchWidth"
+        android:paddingTop="@dimen/padding_actionbar"
+        android:text="DailyTv 회원들간의 소통을 위한 간단한 영상통화 및 음성통화 서비스입니다."
+        />
+
+    <TextView
+        style="@style/MatchWidth"
+        android:paddingTop="@dimen/padding_actionbar"
+        android:text="서비스를 시작하기전에 아래 개인정보를 간단히 입력해주세요."
+        android:layout_marginBottom="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/user_name"
+        style="@style/MatchWidth"
+        android:paddingTop="@dimen/padding_top"
+        android:hint="대화명을 입력해주세요 ex)안녕하세요. 반가워요"
+        android:textSize="16sp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/user_gender"
+        style="@style/MatchWidth"
+        android:paddingTop="@dimen/padding_top"
+        android:hint="성별을 입력해주세요 ex)남성,여성"
+        android:textSize="16sp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/user_age"
+        style="@style/MatchWidth"
+        android:paddingTop="@dimen/padding_top"
+        android:hint="나이를 입력해주세요 ex)27"
+        android:textSize="16sp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/user_hobby"
+        style="@style/MatchWidth"
+        android:paddingTop="@dimen/padding_top"
+        android:hint="취미를 입력해주세요 ex)기타치기,영화보기 등"
+        android:textSize="16sp"
+        android:singleLine="true"
+        />
+
+    <EditText
+
+        android:visibility="invisible"
+        android:id="@+id/chat_room_name"
+        style="@style/MatchWidth"
+        android:paddingTop="@dimen/padding_top"
+        android:hint="@string/hint_chat_room_name"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:text="jungwooLee"
+        />
+
+</LinearLayout>

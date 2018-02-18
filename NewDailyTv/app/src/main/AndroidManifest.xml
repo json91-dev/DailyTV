@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.dailytv">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus"  android:required="false"/>
+
+
+    <!-- quick -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- 문자 전송 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
+
+
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <application
+
+
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:name="com.quickblox.sample.groupchatwebrtc.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        >
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+
+        <!-- 구글맵을 위한 마커 메타 데이타 -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCT0S87dytPm-0qQhu22ZKieERrTNyd10g" />
+
+        <activity
+            android:name="com.example.user.dailytv.Activities.MainActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:hardwareAccelerated="true"
+            android:name=".Activities.TabviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/themefortabviewactivity"
+            />
+
+        <activity
+            android:name="com.example.user.dailytv.DialogActivity.TvPopupActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            />
+
+        <activity android:name="com.example.user.dailytv.Activities.Example1Activity"/>
+
+        <service android:name="net.majorkernelpanic.streaming.rtsp.RtspServer"/>
+
+        <activity android:name="com.example.user.dailytv.Activities.YaseaStreamActivity"
+            android:screenOrientation="portrait" />
+
+        <!--
+            액티비티 회전시에 onCreate로 다시 초기화 방지하는 부분이다.
+        -->
+        <activity android:name="com.example.user.dailytv.Activities.ExoPlayer2Activity"
+            android:configChanges="keyboardHidden|orientation">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Activities.TabviewActivity" />
+
+        </activity>
+
+        <activity android:name="com.example.user.dailytv.Activities.OpencvActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme2"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity android:name="com.example.user.dailytv.Activities.OpencvResultActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="com.example.user.dailytv.DialogActivity.YaseaRoomtitleActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            />
+
+        <activity android:name="com.example.user.dailytv.Activities.VideoPreviewActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Fragment.TabviewActivityForFragment"
+                />
+        </activity>
+        <activity android:name=".DialogActivity.CommentOptionActivity"
+            android:theme="@android:style/Theme.Translucent"
+            />
+        <activity android:name=".DialogActivity.CommentOptionEditActivity"
+            android:theme="@android:style/Theme.Translucent"
+
+            />
+        <activity android:name=".Activities.CommentEditActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.VideoPreviewActivity"
+             />
+        </activity>
+        <activity android:name=".Activities.grayExampleActivity"/>
+
+        <activity android:name=".DialogActivity.YaseaMoonCheckActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            />
+        <activity android:name=".Activities.BuyMoonActivity"/>
+
+        <activity android:name=".Fragment.TabviewActivityForFragment"
+            android:theme="@style/themefortabviewactivity"
+            />
+        <activity android:name=".Activities.ExoPlayerCusterActivity"/>
+
+        <activity android:name=".Activities.SimpleVrPanoramaActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity android:name=".Activities.ArgumentRealityExampleActivity"/>
+
+
+        <!-- 이부분부터 quick blox-->
+
+        <activity
+            android:name="com.quickblox.sample.groupchatwebrtc.activities.SplashActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.quickblox.sample.groupchatwebrtc.activities.LoginActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.quickblox.sample.groupchatwebrtc.activities.OpponentsActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.quickblox.sample.groupchatwebrtc.activities.PermissionsActivity" />
+        <activity
+            android:name="com.quickblox.sample.groupchatwebrtc.activities.CallActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAppTheme" />
+        <activity
+            android:name="com.quickblox.sample.groupchatwebrtc.activities.SettingsActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.quickblox.sample.groupchatwebrtc.services.CallService" />
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.quickblox.sample.groupchatwebrtc" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.quickblox.sample.groupchatwebrtc.services.gcm.GcmPushListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.quickblox.messages.services.gcm.QBGcmPushInstanceIDService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+
+
+        <meta-data android:name="com.quickblox.messages.TYPE" android:value="GCM" />
+        <meta-data android:name="com.quickblox.messages.SENDER_ID" android:value="@string/sender_id" />
+        <meta-data android:name="com.quickblox.messages.QB_ENVIRONMENT" android:value="DEVELOPMENT" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="7aea78439bec41a9005c7488bb6751c5e33fe270" />
+
+    </application>
+
+
+</manifest>

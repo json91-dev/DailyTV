@@ -1,0 +1,138 @@
+<RelativeLayout
+    android:id="@+id/content3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <com.synnapps.carouselview.CarouselView
+        android:background="#EDEDED"
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"
+        app:snap="true"
+        />
+
+    <ImageView
+
+        android:src="@drawable/videoimage4"
+        android:id="@+id/tagImage1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/carouselView"
+        android:layout_margin="10dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hot 동영상"
+        android:textColor="#000000"
+        android:layout_alignTop="@id/tagImage1"
+        android:layout_toRightOf="@id/tagImage1"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        />
+
+    <HorizontalScrollView
+
+        android:id="@+id/videoScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tagImage1"
+
+        android:fadeScrollbars="false"
+        android:scrollbarSize="5dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbHorizontal="@drawable/scrollbar_bg1"
+        android:scrollbarTrackHorizontal="@drawable/scrollbar_bg2"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            >
+
+            <ImageButton
+
+                android:id="@+id/v1_video"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/v1_thumb"
+                android:layout_margin="5dp"
+                />
+            <ImageButton
+                android:id="@+id/v2_video"
+
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/v2_thumb"
+                android:layout_margin="5dp"
+                />
+
+            <ImageButton
+                android:id="@+id/v3_video"
+
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/v3_thumb"
+                android:layout_margin="5dp"
+                />
+
+            <ImageButton
+                android:id="@+id/v4_video"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/v4_thumb"
+                android:layout_margin="5dp"
+                />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+
+        android:src="@drawable/videoimage4"
+        android:id="@+id/tagImage2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/videoScrollView"
+        android:layout_margin="10dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최신 동영상"
+        android:textColor="#000000"
+        android:layout_alignTop="@id/tagImage2"
+        android:layout_toRightOf="@id/tagImage2"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        />
+</RelativeLayout>

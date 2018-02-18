@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="10dp"
+    android:duplicateParentState="false"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/imagelayout"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_centerVertical="true"
+            >
+            <ImageView
+                android:id="@+id/screenimage"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                />
+            <ImageView
+                android:src="@drawable/livemark"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                />
+        </FrameLayout>
+        <LinearLayout
+
+            android:id="@+id/infolayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/imagelayout"
+            android:layout_alignTop="@id/imagelayout"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="15dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/roomtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="오늘도 좋은하루 되세요"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    />
+                <!--나중에 여기에 버튼 집어 넣을것 -->
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bjnickname"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="펭귄"
+                android:textColor="#0000ff"
+                />
+            <LinearLayout
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+
+                    android:id="@+id/viewernumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#BDBDBD"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="명 시청중"
+                    android:textColor="#BDBDBD"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/optionmenubutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/optionbutton"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

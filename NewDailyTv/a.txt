@@ -1,0 +1,2090 @@
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':library' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':sample-core' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':sample-videochat-webrtc' is deprecated. Use 'implementation' instead.
+:app:dependencies
+
+------------------------------------------------------------
+Project :app - Injects the build id used by the Fabric SDK.
+------------------------------------------------------------
+
+androidJacocoAgent - The Jacoco agent to use to get coverage data.
+\--- org.jacoco:org.jacoco.agent:0.7.4.201502262128
+
+androidJacocoAnt - The Jacoco ant tasks to use to get execute Gradle tasks.
+\--- org.jacoco:org.jacoco.ant:0.7.4.201502262128
+     +--- org.jacoco:org.jacoco.core:0.7.4.201502262128
+     |    \--- org.ow2.asm:asm-debug-all:5.0.1
+     +--- org.jacoco:org.jacoco.report:0.7.4.201502262128
+     |    +--- org.jacoco:org.jacoco.core:0.7.4.201502262128 (*)
+     |    \--- org.ow2.asm:asm-debug-all:5.0.1
+     \--- org.jacoco:org.jacoco.agent:0.7.4.201502262128
+
+androidTestAnnotationProcessor - Classpath for the annotation processor for 'androidTest'. (n)
+No dependencies
+
+androidTestApi - API dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestApk - Apk dependencies for 'androidTest' sources (deprecated: use 'androidTestRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestCompile - Compile dependencies for 'androidTest' sources (deprecated: use 'androidTestImplementation' instead). (n)
+\--- com.android.support.test.espresso:espresso-core:2.2.2 (n)
+
+androidTestCompileOnly - Compile only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestDebug'. (n)
+No dependencies
+
+androidTestDebugApi - API dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugApk - Apk dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestDebugCompile - Compile dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugImplementation' instead). (n)
+No dependencies
+
+androidTestDebugCompileOnly - Compile only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugImplementation - Implementation only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugProvided - Provided dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestDebugRuntimeOnly - Runtime only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugWearApp - Link to a wear app to embed for object 'androidTestDebug'. (n)
+No dependencies
+
+androidTestImplementation - Implementation only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestProvided - Provided dependencies for 'androidTest' sources (deprecated: use 'androidTestCompileOnly' instead). (n)
+No dependencies
+
+androidTestRuntimeOnly - Runtime only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestUtil - Additional APKs used during instrumentation testing.
+No dependencies
+
+androidTestWearApp - Link to a wear app to embed for object 'androidTest'. (n)
+No dependencies
+
+annotationProcessor - Classpath for the annotation processor for 'main'. (n)
+No dependencies
+
+api - API dependencies for 'main' sources. (n)
+No dependencies
+
+apk - Apk dependencies for 'main' sources (deprecated: use 'runtimeOnly' instead). (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Compile dependencies for 'main' sources (deprecated: use 'implementation' instead).
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library FAILED
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
+\--- com.google.android.gms:play-services-maps:10.2.0
+     +--- com.google.android.gms:play-services-base:10.2.0
+     |    +--- com.google.android.gms:play-services-basement:10.2.0
+     |    |    \--- com.android.support:support-v4:24.0.0 -> 27.0.1 (*)
+     |    \--- com.google.android.gms:play-services-tasks:10.2.0
+     |         \--- com.google.android.gms:play-services-basement:10.2.0 (*)
+     \--- com.google.android.gms:play-services-basement:10.2.0 (*)
+
+compileOnly - Compile only dependencies for 'main' sources. (n)
+No dependencies
+
+debugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugAndroidTest
+No dependencies
+
+debugAndroidTestCompileClasspath - Resolved configuration for compilation for variant: debugAndroidTest
++--- com.android.support.test.espresso:espresso-core:2.2.2
+|    +--- com.squareup:javawriter:2.1.1
+|    +--- com.android.support.test:rules:0.5
+|    |    \--- com.android.support.test:runner:0.5
+|    |         +--- junit:junit:4.12
+|    |         |    \--- org.hamcrest:hamcrest-core:1.3
+|    |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5
+|    +--- com.android.support.test:runner:0.5 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- org.hamcrest:hamcrest-library:1.3
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2
+|    +--- org.hamcrest:hamcrest-integration:1.3
+|    |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+|    +--- com.google.code.findbugs:jsr305:2.0.1
+|    \--- javax.annotation:javax.annotation-api:1.2
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- com.android.support:multidex-instrumentation:1.0.2
+|    \--- com.android.support:multidex:1.0.2
++--- project :openCVLibrary331
+\--- project :sample-core
+     +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+     |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+     |    +--- com.google.firebase:firebase-messaging:11.4.2
+     |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    +--- com.google.firebase:firebase-iid:11.4.2
+     |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+     |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+     |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+     |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+     |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+     |    +--- com.google.firebase:firebase-core:11.4.2
+     |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+     |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+     |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+     |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+     |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+     |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+     |    +--- com.google.android.gms:play-services-gcm:11.4.2
+     |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+     |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+     |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+     |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+     |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+     |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+     +--- com.android.support:design:26.1.0 (*)
+     \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+          \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+
+debugAndroidTestRuntimeClasspath - Resolved configuration for runtime for variant: debugAndroidTest
++--- com.android.support.test.espresso:espresso-core:2.2.2
+|    +--- com.squareup:javawriter:2.1.1
+|    +--- com.android.support.test:rules:0.5
+|    |    \--- com.android.support.test:runner:0.5
+|    |         +--- junit:junit:4.12
+|    |         |    \--- org.hamcrest:hamcrest-core:1.3
+|    |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5
+|    +--- com.android.support.test:runner:0.5 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- org.hamcrest:hamcrest-library:1.3
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2
+|    +--- org.hamcrest:hamcrest-integration:1.3
+|    |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+|    +--- com.google.code.findbugs:jsr305:2.0.1
+|    \--- javax.annotation:javax.annotation-api:1.2
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- com.android.support:multidex-instrumentation:1.0.2
+|    \--- com.android.support:multidex:1.0.2
++--- project :openCVLibrary331
+\--- project :sample-core
+     +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+     |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+     |    +--- com.google.firebase:firebase-messaging:11.4.2
+     |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    +--- com.google.firebase:firebase-iid:11.4.2
+     |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+     |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+     |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+     |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+     |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+     |    +--- com.google.firebase:firebase-core:11.4.2
+     |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+     |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+     |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+     |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+     |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+     |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+     |    +--- com.google.android.gms:play-services-gcm:11.4.2
+     |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+     |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+     |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+     |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+     |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+     |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+     +--- com.android.support:design:26.1.0 (*)
+     \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+          \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+
+debugAnnotationProcessor - Classpath for the annotation processor for 'debug'. (n)
+No dependencies
+
+debugAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debug
+No dependencies
+
+debugApi - API dependencies for 'debug' sources. (n)
+No dependencies
+
+debugApiElements - API elements for debug (n)
+No dependencies
+
+debugApk - Apk dependencies for 'debug' sources (deprecated: use 'debugRuntimeOnly' instead). (n)
+No dependencies
+
+debugCompile - Compile dependencies for 'debug' sources (deprecated: use 'debugImplementation' instead). (n)
+No dependencies
+
+debugCompileClasspath - Resolved configuration for compilation for variant: debug
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- com.android.support:multidex:1.0.2
++--- project :openCVLibrary331
+\--- project :sample-core
+     +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+     |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+     |    +--- com.google.firebase:firebase-messaging:11.4.2
+     |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    +--- com.google.firebase:firebase-iid:11.4.2
+     |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+     |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+     |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+     |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+     |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+     |    +--- com.google.firebase:firebase-core:11.4.2
+     |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+     |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+     |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+     |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+     |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+     |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+     |    +--- com.google.android.gms:play-services-gcm:11.4.2
+     |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+     |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+     |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+     |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+     |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+     |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+     +--- com.android.support:design:26.1.0 (*)
+     \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+          \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+
+debugCompileOnly - Compile only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugImplementation - Implementation only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugMetadataElements - Metadata elements for debug (n)
+No dependencies
+
+debugProvided - Provided dependencies for 'debug' sources (deprecated: use 'debugCompileOnly' instead). (n)
+No dependencies
+
+debugRuntimeClasspath - Resolved configuration for runtime for variant: debug
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- com.android.support:multidex:1.0.2
++--- project :openCVLibrary331
+\--- project :sample-core
+     +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+     |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+     |    +--- com.google.firebase:firebase-messaging:11.4.2
+     |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    +--- com.google.firebase:firebase-iid:11.4.2
+     |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+     |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+     |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+     |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+     |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+     |    +--- com.google.firebase:firebase-core:11.4.2
+     |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+     |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+     |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+     |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+     |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+     |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+     |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+     |    +--- com.google.android.gms:play-services-gcm:11.4.2
+     |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+     |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+     |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+     |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+     |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+     |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+     |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+     +--- com.android.support:design:26.1.0 (*)
+     \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+          \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+
+debugRuntimeElements - Runtime elements for debug (n)
+No dependencies
+
+debugRuntimeOnly - Runtime only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugUnitTest
+No dependencies
+
+debugUnitTestCompileClasspath - Resolved configuration for compilation for variant: debugUnitTest
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- project :openCVLibrary331
++--- project :sample-core
+|    +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+|    |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|    |    +--- com.google.firebase:firebase-messaging:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.firebase:firebase-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+|    |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+|    |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+|    |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+|    |    +--- com.google.firebase:firebase-core:11.4.2
+|    |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+|    |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+|    |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+|    |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-gcm:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+|    |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+|    |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:design:26.1.0 (*)
+|    \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+|         \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+debugUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: debugUnitTest
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- project :openCVLibrary331
++--- project :sample-core
+|    +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+|    |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|    |    +--- com.google.firebase:firebase-messaging:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.firebase:firebase-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+|    |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+|    |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+|    |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+|    |    +--- com.google.firebase:firebase-core:11.4.2
+|    |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+|    |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+|    |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+|    |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-gcm:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+|    |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+|    |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:design:26.1.0 (*)
+|    \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+|         \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+debugWearApp - Link to a wear app to embed for object 'debug'. (n)
+No dependencies
+
+debugWearBundling - Resolved Configuration for wear app bundling for variant: debug
+No dependencies
+
+default - Configuration for default artifacts.
+No dependencies
+
+implementation - Implementation only dependencies for 'main' sources. (n)
++--- project openCVLibrary331 (n)
+\--- project sample-core (n)
+
+io.fabric - fabric and its transitive dependencies.
+No dependencies
+
+lintChecks - Configuration to apply external lint check jar
+No dependencies
+
+provided - Provided dependencies for 'main' sources (deprecated: use 'compileOnly' instead). (n)
+No dependencies
+
+releaseAnnotationProcessor - Classpath for the annotation processor for 'release'. (n)
+No dependencies
+
+releaseAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: release
+No dependencies
+
+releaseApi - API dependencies for 'release' sources. (n)
+No dependencies
+
+releaseApiElements - API elements for release (n)
+No dependencies
+
+releaseApk - Apk dependencies for 'release' sources (deprecated: use 'releaseRuntimeOnly' instead). (n)
+No dependencies
+
+releaseCompile - Compile dependencies for 'release' sources (deprecated: use 'releaseImplementation' instead). (n)
+No dependencies
+
+releaseCompileClasspath - Resolved configuration for compilation for variant: release
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- project :openCVLibrary331
++--- project :sample-core
+|    +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+|    |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|    |    +--- com.google.firebase:firebase-messaging:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.firebase:firebase-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+|    |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+|    |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+|    |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+|    |    +--- com.google.firebase:firebase-core:11.4.2
+|    |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+|    |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+|    |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+|    |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-gcm:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+|    |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+|    |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:design:26.1.0 (*)
+|    \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+|         \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+\--- com.android.support:multidex:1.0.2
+
+releaseCompileOnly - Compile only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseImplementation - Implementation only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseMetadataElements - Metadata elements for release (n)
+No dependencies
+
+releaseProvided - Provided dependencies for 'release' sources (deprecated: use 'releaseCompileOnly' instead). (n)
+No dependencies
+
+releaseRuntimeClasspath - Resolved configuration for runtime for variant: release
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- project :openCVLibrary331
++--- project :sample-core
+|    +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+|    |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|    |    +--- com.google.firebase:firebase-messaging:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.firebase:firebase-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+|    |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+|    |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+|    |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+|    |    +--- com.google.firebase:firebase-core:11.4.2
+|    |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+|    |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+|    |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+|    |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-gcm:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+|    |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+|    |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:design:26.1.0 (*)
+|    \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+|         \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+\--- com.android.support:multidex:1.0.2
+
+releaseRuntimeElements - Runtime elements for release (n)
+No dependencies
+
+releaseRuntimeOnly - Runtime only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: releaseUnitTest
+No dependencies
+
+releaseUnitTestCompileClasspath - Resolved configuration for compilation for variant: releaseUnitTest
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- project :openCVLibrary331
++--- project :sample-core
+|    +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+|    |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|    |    +--- com.google.firebase:firebase-messaging:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.firebase:firebase-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+|    |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+|    |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+|    |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+|    |    +--- com.google.firebase:firebase-core:11.4.2
+|    |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+|    |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+|    |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+|    |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-gcm:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+|    |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+|    |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:design:26.1.0 (*)
+|    \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+|         \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: releaseUnitTest
++--- com.android.support:appcompat-v7:26.+ -> 27.0.1
+|    +--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-core-utils:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1
+|    |         +--- com.android.support:support-annotations:27.0.1
+|    |         \--- android.arch.lifecycle:runtime:1.0.0
+|    |              +--- android.arch.lifecycle:common:1.0.0
+|    |              \--- android.arch.core:common:1.0.0
+|    +--- com.android.support:support-fragment:27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    \--- com.android.support:support-annotations:27.0.1
+|    +--- com.android.support:support-vector-drawable:27.0.1
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    \--- com.android.support:animated-vector-drawable:27.0.1
+|         +--- com.android.support:support-vector-drawable:27.0.1 (*)
+|         \--- com.android.support:support-core-ui:27.0.1 (*)
++--- com.android.support.constraint:constraint-layout:1.0.2
+|    \--- com.android.support.constraint:constraint-layout-solver:1.0.2
++--- com.squareup.okhttp3:okhttp:3.9.0
+|    \--- com.squareup.okio:okio:1.13.0
++--- de.hdodenhof:circleimageview:2.2.0
++--- project :library
+|    \--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
++--- com.google.android.exoplayer:exoplayer:r2.5.1
+|    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-dash:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    +--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    |    \--- com.android.support:support-core-utils:25.4.0 -> 27.0.1 (*)
+|    +--- com.google.android.exoplayer:exoplayer-hls:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    +--- com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1
+|    |    +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|    |    \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
+|    \--- com.google.android.exoplayer:exoplayer-ui:r2.5.1
+|         +--- com.google.android.exoplayer:exoplayer-core:r2.5.1 (*)
+|         \--- com.android.support:support-annotations:25.4.0 -> 27.0.1
++--- com.android.support:recyclerview-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|    +--- com.android.support:support-compat:26.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:support-core-ui:26.1.0 -> 27.0.1 (*)
++--- com.synnapps:carouselview:0.1.4
+|    +--- com.android.support:appcompat-v7:25.1.0 -> 27.0.1 (*)
+|    \--- com.android.support:recyclerview-v7:25.1.0 -> 26.1.0 (*)
++--- com.android.support:design:26.1.0
+|    +--- com.android.support:support-v4:26.1.0 -> 27.0.1
+|    |    +--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-media-compat:27.0.1
+|    |    |    +--- com.android.support:support-annotations:27.0.1
+|    |    |    \--- com.android.support:support-compat:27.0.1 (*)
+|    |    +--- com.android.support:support-core-utils:27.0.1 (*)
+|    |    +--- com.android.support:support-core-ui:27.0.1 (*)
+|    |    \--- com.android.support:support-fragment:27.0.1 (*)
+|    +--- com.android.support:appcompat-v7:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:recyclerview-v7:26.1.0 (*)
+|    \--- com.android.support:transition:26.1.0
+|         +--- com.android.support:support-annotations:26.1.0 -> 27.0.1
+|         \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
++--- com.github.bumptech.glide:glide:4.3.1
+|    +--- com.github.bumptech.glide:gifdecoder:4.3.1
+|    |    \--- com.android.support:support-annotations:26.0.2 -> 27.0.1
+|    +--- com.github.bumptech.glide:disklrucache:4.3.1
+|    \--- com.github.bumptech.glide:annotations:4.3.1
++--- com.facebook.android:facebook-login:4.29.0
+|    +--- com.facebook.android:facebook-core:4.29.0
+|    |    +--- com.parse.bolts:bolts-android:1.4.0
+|    |    |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |    \--- com.parse.bolts:bolts-applinks:1.4.0
+|    |    |         \--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    +--- com.android.support:support-annotations:27.0.1
+|    |    \--- com.android.support:support-core-utils:27.0.1 (*)
+|    \--- com.facebook.android:facebook-common:4.29.0
+|         +--- com.facebook.android:facebook-core:4.29.0 (*)
+|         +--- com.android.support:appcompat-v7:27.0.1 (*)
+|         +--- com.android.support:cardview-v7:27.0.1
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:customtabs:27.0.1
+|         |    +--- com.android.support:support-compat:27.0.1 (*)
+|         |    \--- com.android.support:support-annotations:27.0.1
+|         +--- com.android.support:support-v4:27.0.1 (*)
+|         \--- com.google.zxing:core:3.3.0
++--- com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1
+|    +--- com.quickblox:quickblox-android-sdk-core:3.4.1
+|    |    \--- com.google.code.gson:gson:2.4
+|    \--- com.quickblox:quickblox-android-sdk-chat:3.4.1
+|         +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|         +--- org.jxmpp:jxmpp-core:0.4.2
+|         |    \--- org.jxmpp:jxmpp-util-cache:0.4.2
+|         \--- de.measite.minidns:minidns:[0.1,0.2) -> 0.1.7
++--- com.android.support:cardview-v7:26.+ -> 27.0.1 (*)
++--- com.navercorp.pulltorefresh:library:3.2.3
++--- com.crashlytics.sdk.android:crashlytics:2.2.2
+|    +--- com.crashlytics.sdk.android:answers:1.1.2
+|    |    \--- io.fabric.sdk.android:fabric:1.2.0
+|    +--- io.fabric.sdk.android:fabric:1.2.0
+|    \--- com.crashlytics.sdk.android:beta:1.1.2
+|         \--- io.fabric.sdk.android:fabric:1.2.0
++--- com.mcxiaoke.volley:library:1.0.18
++--- in.srain.cube:grid-view-with-header-footer:1.0.12
++--- com.github.glomadrian:Grav:1.1
+|    \--- com.android.support:appcompat-v7:25.3.1 -> 27.0.1 (*)
++--- com.roughike:bottom-bar:2.3.1
+|    +--- com.android.support:appcompat-v7:25.3.0 -> 27.0.1 (*)
+|    \--- com.android.support:design:25.3.0 -> 26.1.0 (*)
++--- com.google.android.gms:play-services-maps:10.2.0
+|    +--- com.google.android.gms:play-services-base:10.2.0 -> 11.4.2
+|    |    +--- com.google.android.gms:play-services-basement:11.4.2
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 27.0.1 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-tasks:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    \--- com.google.android.gms:play-services-tasks-license:11.4.2
+|    |    \--- com.google.android.gms:play-services-base-license:11.4.2
+|    \--- com.google.android.gms:play-services-basement:10.2.0 -> 11.4.2 (*)
++--- project :openCVLibrary331
++--- project :sample-core
+|    +--- com.quickblox:quickblox-android-sdk-messages:3.4.1
+|    |    +--- com.quickblox:quickblox-android-sdk-core:3.4.1 (*)
+|    |    +--- com.google.firebase:firebase-messaging:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.firebase:firebase-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    +--- com.google.firebase:firebase-common:11.4.2
+|    |    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |    |    |    \--- com.google.firebase:firebase-common-license:11.4.2
+|    |    |    |    \--- com.google.firebase:firebase-iid-license:11.4.2
+|    |    |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |    \--- com.google.firebase:firebase-messaging-license:11.4.2
+|    |    +--- com.google.firebase:firebase-core:11.4.2
+|    |    |    \--- com.google.firebase:firebase-analytics:11.4.2
+|    |    |         +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         +--- com.google.firebase:firebase-analytics-impl:11.4.2
+|    |    |         |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-iid:11.4.2 (*)
+|    |    |         |    +--- com.google.firebase:firebase-common:11.4.2 (*)
+|    |    |         |    +--- com.google.android.gms:play-services-tasks:11.4.2 (*)
+|    |    |         |    \--- com.google.firebase:firebase-analytics-impl-license:11.4.2
+|    |    |         \--- com.google.firebase:firebase-analytics-license:11.4.2
+|    |    +--- com.google.android.gms:play-services-gcm:11.4.2
+|    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    +--- com.google.android.gms:play-services-iid:11.4.2
+|    |    |    |    +--- com.google.android.gms:play-services-base:11.4.2 (*)
+|    |    |    |    +--- com.google.android.gms:play-services-basement:11.4.2 (*)
+|    |    |    |    \--- com.google.android.gms:play-services-iid-license:11.4.2
+|    |    |    \--- com.google.android.gms:play-services-gcm-license:11.4.2
+|    |    \--- com.android.support:support-v4:26.1.0 -> 27.0.1 (*)
+|    +--- com.android.support:design:26.1.0 (*)
+|    \--- com.github.johnkil.android-robototextview:robototextview:4.0.0
+|         \--- com.android.support:appcompat-v7:26.0.0 -> 27.0.1 (*)
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+releaseWearApp - Link to a wear app to embed for object 'release'. (n)
+No dependencies
+
+releaseWearBundling - Resolved Configuration for wear app bundling for variant: release
+No dependencies
+
+runtimeOnly - Runtime only dependencies for 'main' sources. (n)
+No dependencies
+
+testAnnotationProcessor - Classpath for the annotation processor for 'test'. (n)
+No dependencies
+
+testApi - API dependencies for 'test' sources. (n)
+No dependencies
+
+testApk - Apk dependencies for 'test' sources (deprecated: use 'testRuntimeOnly' instead). (n)
+No dependencies
+
+testCompile - Compile dependencies for 'test' sources (deprecated: use 'testImplementation' instead).
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+testCompileOnly - Compile only dependencies for 'test' sources. (n)
+No dependencies
+
+testDebugAnnotationProcessor - Classpath for the annotation processor for 'testDebug'. (n)
+No dependencies
+
+testDebugApi - API dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugApk - Apk dependencies for 'testDebug' sources (deprecated: use 'testDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testDebugCompile - Compile dependencies for 'testDebug' sources (deprecated: use 'testDebugImplementation' instead). (n)
+No dependencies
+
+testDebugCompileOnly - Compile only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugImplementation - Implementation only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugProvided - Provided dependencies for 'testDebug' sources (deprecated: use 'testDebugCompileOnly' instead). (n)
+No dependencies
+
+testDebugRuntimeOnly - Runtime only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugWearApp - Link to a wear app to embed for object 'testDebug'. (n)
+No dependencies
+
+testImplementation - Implementation only dependencies for 'test' sources. (n)
+No dependencies
+
+testProvided - Provided dependencies for 'test' sources (deprecated: use 'testCompileOnly' instead). (n)
+No dependencies
+
+testReleaseAnnotationProcessor - Classpath for the annotation processor for 'testRelease'. (n)
+No dependencies
+
+testReleaseApi - API dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseApk - Apk dependencies for 'testRelease' sources (deprecated: use 'testReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testReleaseCompile - Compile dependencies for 'testRelease' sources (deprecated: use 'testReleaseImplementation' instead). (n)
+No dependencies
+
+testReleaseCompileOnly - Compile only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseImplementation - Implementation only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseProvided - Provided dependencies for 'testRelease' sources (deprecated: use 'testReleaseCompileOnly' instead). (n)
+No dependencies
+
+testReleaseRuntimeOnly - Runtime only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseWearApp - Link to a wear app to embed for object 'testRelease'. (n)
+No dependencies
+
+testRuntimeOnly - Runtime only dependencies for 'test' sources. (n)
+No dependencies
+
+testWearApp - Link to a wear app to embed for object 'test'. (n)
+No dependencies
+
+wearApp - Link to a wear app to embed for object 'main'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+BUILD SUCCESSFUL in 9s
+1 actionable task: 1 executed

@@ -1,0 +1,689 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+MERGED from [com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-videochat-webrtc-3.4.1.aar\453862a2d9e2adb90cc0dc1632234517\AndroidManifest.xml:2:1-9:12
+MERGED from [:sample-core] C:\Users\user\androidproject\NewDailyTv\sample-core\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.johnkil.android-robototextview:robototextview:4.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\robototextview-4.0.0.aar\a53de14c9f7bdaecdf290137c9f0030d\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\50bfc5c7a3dbeb5d80c81eb456efbe4d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d96cf30ff50b254ac0e6bed9c6e181f1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\70ff4ab06c12e0ebe5646d2ccfc54a32\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1dfc73ccd79c2890135f88ecafa4d0dc\AndroidManifest.xml:17:1-28:12
+MERGED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b0406414535252d009582514a72b5bc9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\49616274bb37278be9298067bda459d2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\fee3053f05b63152f358f992040094d9\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\52b4fbf7f6e7f93a0c3db7a15a9fea72\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9bd750a42a05668239276b03e3c83e2f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\983efe00c1920116afd6e3e2cf8a85bc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a95aec06b87d0f37f6d07b0a86e07109\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\963729fec3bd05adf07e20dd777682c2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\221f50e398d6cee4e58ea0d8dd19e1cb\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1eb55110770e6ed9a5187c1924e40155\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\51dc23473155db37c935b37ad26f7b9a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.navercorp.pulltorefresh:library:3.2.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\library-3.2.3.aar\432d3bd05f5927c921f4f2bc1718fbb7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\crashlytics-2.2.2.aar\72b36584e52d9b374e1ecf63a9c9ac78\AndroidManifest.xml:2:1-13:12
+MERGED from [com.quickblox:quickblox-android-sdk-chat:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-chat-3.4.1.aar\b13145c0279ab7b628c7960cd3f1d0ec\AndroidManifest.xml:2:1-14:12
+MERGED from [com.quickblox:quickblox-android-sdk-core:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-core-3.4.1.aar\e0b1e30af4a92a2bce6cb5404701dbf0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.crashlytics.sdk.android:answers:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\answers-1.1.2.aar\3f3dd845130ca8e9e4c2930838df6dda\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:beta:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\beta-1.1.2.aar\0ad86f3efe42d014ea5a60ed69eea192\AndroidManifest.xml:2:1-11:12
+MERGED from [io.fabric.sdk.android:fabric:1.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fabric-1.2.0.aar\6d72a023e040e54ba5e158a1d139a16d\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\348a789615d4d2466a3785d50ebc87ac\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\e932c4eb828f22b111bb47cff0d19bd2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\5fc0ba4ecee8ba189bf750688d1d291e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\9479b7c9a5660fcf88271f2270d79eb4\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\7ac8497633d8b248d931c7700dd95ba1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\707793f3ff0ee2de4f18c0eafa06fe4e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6efdf0465c37f4d4f0436b0cd80bb773\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\434bdab00c64e2f4ca89ef4c7a804d3d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\565193964a20f581b06ebed5e14dd344\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\eebbfc6a852ecb31aa2c4ae93fc171ce\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\378cd5099d752ede91c0421d6c4fdc28\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+	package
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:4:5-51
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:1-100:12
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:21:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\crashlytics-2.2.2.aar\72b36584e52d9b374e1ecf63a9c9ac78\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\crashlytics-2.2.2.aar\72b36584e52d9b374e1ecf63a9c9ac78\AndroidManifest.xml:9:5-67
+MERGED from [com.quickblox:quickblox-android-sdk-chat:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-chat-3.4.1.aar\b13145c0279ab7b628c7960cd3f1d0ec\AndroidManifest.xml:11:5-67
+MERGED from [com.quickblox:quickblox-android-sdk-chat:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-chat-3.4.1.aar\b13145c0279ab7b628c7960cd3f1d0ec\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:13:22-73
+uses-feature#android.hardware.camera
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:15:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:16:19-67
+uses-feature#0x00020000
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:18:5-20:35
+	android:glEsVersion
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:19:9-41
+	android:required
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:20:9-32
+application
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:22:5-98:19
+MERGED from [:sample-core] C:\Users\user\androidproject\NewDailyTv\sample-core\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-20
+MERGED from [:sample-core] C:\Users\user\androidproject\NewDailyTv\sample-core\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.github.johnkil.android-robototextview:robototextview:4.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\robototextview-4.0.0.aar\a53de14c9f7bdaecdf290137c9f0030d\AndroidManifest.xml:8:5-20
+MERGED from [com.github.johnkil.android-robototextview:robototextview:4.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\robototextview-4.0.0.aar\a53de14c9f7bdaecdf290137c9f0030d\AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\50bfc5c7a3dbeb5d80c81eb456efbe4d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\50bfc5c7a3dbeb5d80c81eb456efbe4d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d96cf30ff50b254ac0e6bed9c6e181f1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d96cf30ff50b254ac0e6bed9c6e181f1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\70ff4ab06c12e0ebe5646d2ccfc54a32\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\70ff4ab06c12e0ebe5646d2ccfc54a32\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1dfc73ccd79c2890135f88ecafa4d0dc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1dfc73ccd79c2890135f88ecafa4d0dc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:10:5-24:19
+MERGED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:10:5-24:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b0406414535252d009582514a72b5bc9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b0406414535252d009582514a72b5bc9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\49616274bb37278be9298067bda459d2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\49616274bb37278be9298067bda459d2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\fee3053f05b63152f358f992040094d9\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\fee3053f05b63152f358f992040094d9\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\52b4fbf7f6e7f93a0c3db7a15a9fea72\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\52b4fbf7f6e7f93a0c3db7a15a9fea72\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9bd750a42a05668239276b03e3c83e2f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9bd750a42a05668239276b03e3c83e2f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\983efe00c1920116afd6e3e2cf8a85bc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\983efe00c1920116afd6e3e2cf8a85bc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a95aec06b87d0f37f6d07b0a86e07109\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a95aec06b87d0f37f6d07b0a86e07109\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\963729fec3bd05adf07e20dd777682c2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\963729fec3bd05adf07e20dd777682c2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\221f50e398d6cee4e58ea0d8dd19e1cb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\221f50e398d6cee4e58ea0d8dd19e1cb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1eb55110770e6ed9a5187c1924e40155\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1eb55110770e6ed9a5187c1924e40155\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\51dc23473155db37c935b37ad26f7b9a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\51dc23473155db37c935b37ad26f7b9a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.navercorp.pulltorefresh:library:3.2.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\library-3.2.3.aar\432d3bd05f5927c921f4f2bc1718fbb7\AndroidManifest.xml:9:5-20
+MERGED from [com.navercorp.pulltorefresh:library:3.2.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\library-3.2.3.aar\432d3bd05f5927c921f4f2bc1718fbb7\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\crashlytics-2.2.2.aar\72b36584e52d9b374e1ecf63a9c9ac78\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\crashlytics-2.2.2.aar\72b36584e52d9b374e1ecf63a9c9ac78\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\answers-1.1.2.aar\3f3dd845130ca8e9e4c2930838df6dda\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\answers-1.1.2.aar\3f3dd845130ca8e9e4c2930838df6dda\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\beta-1.1.2.aar\0ad86f3efe42d014ea5a60ed69eea192\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\beta-1.1.2.aar\0ad86f3efe42d014ea5a60ed69eea192\AndroidManifest.xml:9:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fabric-1.2.0.aar\6d72a023e040e54ba5e158a1d139a16d\AndroidManifest.xml:9:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fabric-1.2.0.aar\6d72a023e040e54ba5e158a1d139a16d\AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\348a789615d4d2466a3785d50ebc87ac\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\348a789615d4d2466a3785d50ebc87ac\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\e932c4eb828f22b111bb47cff0d19bd2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\e932c4eb828f22b111bb47cff0d19bd2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\5fc0ba4ecee8ba189bf750688d1d291e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\5fc0ba4ecee8ba189bf750688d1d291e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\9479b7c9a5660fcf88271f2270d79eb4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\9479b7c9a5660fcf88271f2270d79eb4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\7ac8497633d8b248d931c7700dd95ba1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\7ac8497633d8b248d931c7700dd95ba1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\707793f3ff0ee2de4f18c0eafa06fe4e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\707793f3ff0ee2de4f18c0eafa06fe4e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6efdf0465c37f4d4f0436b0cd80bb773\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6efdf0465c37f4d4f0436b0cd80bb773\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\434bdab00c64e2f4ca89ef4c7a804d3d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\434bdab00c64e2f4ca89ef4c7a804d3d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\565193964a20f581b06ebed5e14dd344\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\565193964a20f581b06ebed5e14dd344\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\eebbfc6a852ecb31aa2c4ae93fc171ce\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\eebbfc6a852ecb31aa2c4ae93fc171ce\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\378cd5099d752ede91c0421d6c4fdc28\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\378cd5099d752ede91c0421d6c4fdc28\AndroidManifest.xml:5:5-20
+	android:label
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:26:9-41
+	tools:ignore
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:28:9-48
+	android:icon
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:25:9-43
+	android:allowBackup
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:24:9-36
+	android:theme
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:27:9-40
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:23:9-28
+activity#com.quickblox.sample.groupchatwebrtc.activities.SplashActivity
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:29:9-36:20
+	android:screenOrientation
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:30:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:34:27-74
+activity#com.quickblox.sample.groupchatwebrtc.activities.LoginActivity
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:37:9-40:52
+	android:screenOrientation
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:40:13-49
+	android:configChanges
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:39:13-74
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:38:13-53
+activity#com.quickblox.sample.groupchatwebrtc.activities.OpponentsActivity
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:41:9-45:52
+	android:screenOrientation
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:45:13-49
+	android:launchMode
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:44:13-44
+	android:configChanges
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:43:13-74
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:42:13-57
+activity#com.quickblox.sample.groupchatwebrtc.activities.PermissionsActivity
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:46:9-68
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:46:19-65
+activity#com.quickblox.sample.groupchatwebrtc.activities.CallActivity
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:47:9-51:51
+	android:screenOrientation
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:50:13-49
+	android:configChanges
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:49:13-74
+	android:theme
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:48:13-52
+activity#com.quickblox.sample.groupchatwebrtc.activities.SettingsActivity
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:52:9-55:52
+	android:screenOrientation
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:55:13-49
+	android:configChanges
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:54:13-74
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:53:13-56
+service#com.quickblox.sample.groupchatwebrtc.services.CallService
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:57:9-57
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:57:18-54
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:59:9-69:20
+	android:exported
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:61:13-36
+	android:permission
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:62:13-73
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:60:13-66
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.quickblox.sample.groupchatwebrtc
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:63:13-68:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:64:17-81
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:64:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:65:17-86
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:65:25-83
+category#com.quickblox.sample.groupchatwebrtc
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:67:17-81
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:67:27-78
+service#com.quickblox.sample.groupchatwebrtc.services.gcm.GcmPushListenerService
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:71:9-77:19
+	android:exported
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:72:13-64
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:74:13-76:29
+service#com.quickblox.messages.services.gcm.QBGcmPushInstanceIDService
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:79:9-85:19
+	android:exported
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:80:13-90
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:82:13-84:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:83:17-80
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:83:25-77
+meta-data#com.quickblox.messages.TYPE
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:87:9-85
+	android:value
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:87:63-82
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:87:20-62
+meta-data#com.quickblox.messages.SENDER_ID
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:88:9-104
+	android:value
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:88:68-101
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:88:20-67
+meta-data#com.quickblox.messages.QB_ENVIRONMENT
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:89:9-103
+	android:value
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:89:73-100
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:89:20-72
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:91:9-93:69
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\52b4fbf7f6e7f93a0c3db7a15a9fea72\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\52b4fbf7f6e7f93a0c3db7a15a9fea72\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:93:13-66
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:92:13-58
+meta-data#io.fabric.ApiKey
+ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:95:9-97:72
+	android:value
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:97:13-69
+	android:name
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml:96:13-44
+uses-sdk
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+MERGED from [com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-videochat-webrtc-3.4.1.aar\453862a2d9e2adb90cc0dc1632234517\AndroidManifest.xml:5:5-7:41
+MERGED from [com.quickblox:quickblox-android-sdk-videochat-webrtc:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-videochat-webrtc-3.4.1.aar\453862a2d9e2adb90cc0dc1632234517\AndroidManifest.xml:5:5-7:41
+MERGED from [:sample-core] C:\Users\user\androidproject\NewDailyTv\sample-core\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:sample-core] C:\Users\user\androidproject\NewDailyTv\sample-core\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:21:5-23:62
+MERGED from [com.github.johnkil.android-robototextview:robototextview:4.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\robototextview-4.0.0.aar\a53de14c9f7bdaecdf290137c9f0030d\AndroidManifest.xml:6:5-44
+MERGED from [com.github.johnkil.android-robototextview:robototextview:4.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\robototextview-4.0.0.aar\a53de14c9f7bdaecdf290137c9f0030d\AndroidManifest.xml:6:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\50bfc5c7a3dbeb5d80c81eb456efbe4d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\50bfc5c7a3dbeb5d80c81eb456efbe4d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d96cf30ff50b254ac0e6bed9c6e181f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d96cf30ff50b254ac0e6bed9c6e181f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\70ff4ab06c12e0ebe5646d2ccfc54a32\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\70ff4ab06c12e0ebe5646d2ccfc54a32\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1dfc73ccd79c2890135f88ecafa4d0dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1dfc73ccd79c2890135f88ecafa4d0dc\AndroidManifest.xml:20:5-44
+MERGED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b0406414535252d009582514a72b5bc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b0406414535252d009582514a72b5bc9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\49616274bb37278be9298067bda459d2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\49616274bb37278be9298067bda459d2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\fee3053f05b63152f358f992040094d9\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\fee3053f05b63152f358f992040094d9\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\52b4fbf7f6e7f93a0c3db7a15a9fea72\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\52b4fbf7f6e7f93a0c3db7a15a9fea72\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9bd750a42a05668239276b03e3c83e2f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9bd750a42a05668239276b03e3c83e2f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\983efe00c1920116afd6e3e2cf8a85bc\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\983efe00c1920116afd6e3e2cf8a85bc\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a95aec06b87d0f37f6d07b0a86e07109\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a95aec06b87d0f37f6d07b0a86e07109\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\963729fec3bd05adf07e20dd777682c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\963729fec3bd05adf07e20dd777682c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\221f50e398d6cee4e58ea0d8dd19e1cb\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\221f50e398d6cee4e58ea0d8dd19e1cb\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1eb55110770e6ed9a5187c1924e40155\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1eb55110770e6ed9a5187c1924e40155\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\51dc23473155db37c935b37ad26f7b9a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\51dc23473155db37c935b37ad26f7b9a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.navercorp.pulltorefresh:library:3.2.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\library-3.2.3.aar\432d3bd05f5927c921f4f2bc1718fbb7\AndroidManifest.xml:7:5-43
+MERGED from [com.navercorp.pulltorefresh:library:3.2.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\library-3.2.3.aar\432d3bd05f5927c921f4f2bc1718fbb7\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\crashlytics-2.2.2.aar\72b36584e52d9b374e1ecf63a9c9ac78\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\crashlytics-2.2.2.aar\72b36584e52d9b374e1ecf63a9c9ac78\AndroidManifest.xml:7:5-43
+MERGED from [com.quickblox:quickblox-android-sdk-chat:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-chat-3.4.1.aar\b13145c0279ab7b628c7960cd3f1d0ec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.quickblox:quickblox-android-sdk-chat:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-chat-3.4.1.aar\b13145c0279ab7b628c7960cd3f1d0ec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.quickblox:quickblox-android-sdk-core:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-core-3.4.1.aar\e0b1e30af4a92a2bce6cb5404701dbf0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.quickblox:quickblox-android-sdk-core:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-core-3.4.1.aar\e0b1e30af4a92a2bce6cb5404701dbf0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.crashlytics.sdk.android:answers:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\answers-1.1.2.aar\3f3dd845130ca8e9e4c2930838df6dda\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\answers-1.1.2.aar\3f3dd845130ca8e9e4c2930838df6dda\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\beta-1.1.2.aar\0ad86f3efe42d014ea5a60ed69eea192\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\beta-1.1.2.aar\0ad86f3efe42d014ea5a60ed69eea192\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fabric-1.2.0.aar\6d72a023e040e54ba5e158a1d139a16d\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fabric-1.2.0.aar\6d72a023e040e54ba5e158a1d139a16d\AndroidManifest.xml:7:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\348a789615d4d2466a3785d50ebc87ac\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\348a789615d4d2466a3785d50ebc87ac\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\e932c4eb828f22b111bb47cff0d19bd2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\e932c4eb828f22b111bb47cff0d19bd2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\5fc0ba4ecee8ba189bf750688d1d291e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\5fc0ba4ecee8ba189bf750688d1d291e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\9479b7c9a5660fcf88271f2270d79eb4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\9479b7c9a5660fcf88271f2270d79eb4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\7ac8497633d8b248d931c7700dd95ba1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\7ac8497633d8b248d931c7700dd95ba1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\707793f3ff0ee2de4f18c0eafa06fe4e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\707793f3ff0ee2de4f18c0eafa06fe4e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6efdf0465c37f4d4f0436b0cd80bb773\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6efdf0465c37f4d4f0436b0cd80bb773\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\434bdab00c64e2f4ca89ef4c7a804d3d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\434bdab00c64e2f4ca89ef4c7a804d3d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\565193964a20f581b06ebed5e14dd344\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\565193964a20f581b06ebed5e14dd344\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\eebbfc6a852ecb31aa2c4ae93fc171ce\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\eebbfc6a852ecb31aa2c4ae93fc171ce\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\378cd5099d752ede91c0421d6c4fdc28\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\378cd5099d752ede91c0421d6c4fdc28\AndroidManifest.xml:4:5-43
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\androidproject\NewDailyTv\sample-videochat-webrtc\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\50bfc5c7a3dbeb5d80c81eb456efbe4d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\50bfc5c7a3dbeb5d80c81eb456efbe4d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d96cf30ff50b254ac0e6bed9c6e181f1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\d96cf30ff50b254ac0e6bed9c6e181f1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1dfc73ccd79c2890135f88ecafa4d0dc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1dfc73ccd79c2890135f88ecafa4d0dc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b0406414535252d009582514a72b5bc9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b0406414535252d009582514a72b5bc9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9bd750a42a05668239276b03e3c83e2f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9bd750a42a05668239276b03e3c83e2f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\983efe00c1920116afd6e3e2cf8a85bc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\983efe00c1920116afd6e3e2cf8a85bc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a95aec06b87d0f37f6d07b0a86e07109\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a95aec06b87d0f37f6d07b0a86e07109\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\963729fec3bd05adf07e20dd777682c2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\963729fec3bd05adf07e20dd777682c2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\221f50e398d6cee4e58ea0d8dd19e1cb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\221f50e398d6cee4e58ea0d8dd19e1cb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1eb55110770e6ed9a5187c1924e40155\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1eb55110770e6ed9a5187c1924e40155\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\51dc23473155db37c935b37ad26f7b9a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\51dc23473155db37c935b37ad26f7b9a\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\507d534ee7b898b96af3a286706c714e\AndroidManifest.xml:27:13-51
+service#com.quickblox.messages.services.SubscribeTaskManager
+ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:11:9-18:19
+	android:exported
+		ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:13:13-36
+	android:permission
+		ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:14:13-93
+	android:name
+		ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:12:13-80
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:15:13-17:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:16:17-87
+	android:name
+		ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:16:25-84
+service#com.quickblox.messages.services.SubscribeService
+ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:19:9-23:19
+	android:exported
+		ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:21:13-37
+	android:permission
+		ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:22:13-69
+	android:name
+		ADDED from [com.quickblox:quickblox-android-sdk-messages:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-messages-3.4.1.aar\b308e9b31fb33dd0b61c9c0831b9909f\AndroidManifest.xml:20:13-76
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\aaeaaa5195b46a5402ad450a20c4837b\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:22:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\08192e202e560e15eb714f035441ab0b\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\346a3195ada34c799dd20192bb113cc7\AndroidManifest.xml:20:22-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:19:5-78
+MERGED from [com.quickblox:quickblox-android-sdk-chat:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-chat-3.4.1.aar\b13145c0279ab7b628c7960cd3f1d0ec\AndroidManifest.xml:12:5-79
+MERGED from [com.quickblox:quickblox-android-sdk-chat:3.4.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\quickblox-android-sdk-chat-3.4.1.aar\b13145c0279ab7b628c7960cd3f1d0ec\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\f4b9fd046a6fec46edc4b85573db96dc\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\4536b380140d845fd98f321456151f98\AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:24:17-71
+permission#com.quickblox.sample.groupchatwebrtc.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:26:22-76
+uses-permission#com.quickblox.sample.groupchatwebrtc.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:31:13-34:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.quickblox.sample.groupchatwebrtc
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:31:13-34:29
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\b9dcb2226dd546ea7e48ecfed9711f4b\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\1d029615039c9ffa3b62991d5b6ab306\AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\03d3203ea2df7c361576b7cdf4389874\AndroidManifest.xml:19:19-85
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\348a789615d4d2466a3785d50ebc87ac\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\348a789615d4d2466a3785d50ebc87ac\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\348a789615d4d2466a3785d50ebc87ac\AndroidManifest.xml:26:13-58

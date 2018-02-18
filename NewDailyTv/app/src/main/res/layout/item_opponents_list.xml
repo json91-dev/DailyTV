@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItem"
+    android:paddingTop="@dimen/list_item_padding_top"
+    android:paddingBottom="@dimen/list_item_padding_bottom"
+    android:layout_height="140dp"
+    >
+
+    <ImageView
+        android:id="@+id/image_opponent_icon"
+        style="@style/ListItemIconStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginStart="@dimen/padding_start"
+        tools:src="@drawable/ic_person"
+        android:layout_marginLeft="@dimen/padding_start" />
+
+
+    <!-- 사실 이부분이 대화명을 나타내는 부분이다. -->
+
+    <TextView
+
+        android:id="@+id/opponentNameTag"
+        android:background="@drawable/button6"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="대화명"
+        style="@style/opponents_list_tab"
+        android:layout_alignStart="@+id/genderTag"
+
+
+        />
+    <TextView
+
+        android:layout_toRightOf="@id/image_opponent_icon"
+        android:id="@+id/opponentsName"
+
+        android:layout_below="@id/opponentNameTag"
+        android:layout_alignStart="@id/opponentNameTag"
+        style="@style/opponents_list_item"
+        android:textAppearance="?android:attr/textAppearance"
+        tools:text="안녕하세요"
+
+        android:layout_marginBottom="5dp"
+        />
+
+    <!-- 밑부분은 내가 커스텀한 부분-->
+    <TextView
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@id/image_opponent_icon"
+        android:layout_below="@id/opponentsName"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button5"
+        android:padding="5dp"
+
+        android:id="@+id/genderTag"
+        style="@style/opponents_list_tab"
+
+        android:text="성별"
+        />
+
+    <TextView
+
+        android:layout_toRightOf="@id/genderTag"
+        android:layout_below="@id/opponentsName"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button5"
+        android:padding="5dp"
+
+
+        android:id="@+id/ageTag"
+        style="@style/opponents_list_tab"
+        android:text="나이"
+
+        />
+
+    <TextView
+        android:id="@+id/hobbyTag"
+        style="@style/opponents_list_tab"
+
+        android:layout_above="@+id/age"
+        android:layout_toEndOf="@+id/ageTag"
+        android:background="@drawable/button5"
+        android:padding="5dp"
+        android:text="취미" />
+
+
+    <TextView
+        android:id="@+id/gender"
+        style="@style/opponents_list_item"
+        android:text="남자"
+        android:layout_below="@id/genderTag"
+        android:layout_alignStart="@id/genderTag"
+        />
+
+    <TextView
+
+        android:id="@+id/age"
+        style="@style/opponents_list_item"
+        android:text="21세"
+        android:layout_below="@id/ageTag"
+        android:layout_alignStart="@id/ageTag"
+        />
+
+    <TextView
+        android:id="@+id/hobby"
+        style="@style/opponents_list_item"
+        android:text="기타치기"
+        android:layout_below="@id/hobbyTag"
+        android:layout_alignStart="@id/hobbyTag"
+        />
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cameras">
+        <item>Front</item>
+        <item>Back</item>
+    </string-array>
+
+    <string-array name="camerasValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="payment">
+        <item >선택</item>
+        <item >휴대폰</item>
+    </string-array>
+
+    <string-array name="phone">
+        <item >010</item>
+        <item >011</item>
+        <item >016</item>
+        <item >017</item>
+    </string-array>
+
+    출처: http://bitsoul.tistory.com/43 [Happy Programmer~]
+
+    <string-array name="videoResolutions">
+        <item>Default</item>
+        <item>HD (1280 x 720)</item>
+        <item>VGA (640 x 480)</item>
+        <item>QVGA (320 x 240)</item>
+    </string-array>
+
+    <string-array name="videoResolutionsValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="cameraFpsValues">
+        <item>0</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="cameraFps">
+        <item>Default</item>
+        <item>15 fps</item>
+        <item>20 fps</item>
+        <item>30 fps</item>
+    </string-array>
+
+    <string-array name="startBitrate">
+        <item>Default</item>
+        <item>Manual</item>
+    </string-array>
+
+    <string-array name="videoCodecs">
+        <item>VP8</item>
+        <item>VP9</item>
+        <item>H264</item>
+    </string-array>
+
+    <string-array name="videoCodecsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="audioCodecs">
+        <item>ISAC</item>
+        <item>opus</item>
+    </string-array>
+
+    <integer-array name="localViewCoordinates">
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>100</item>
+    </integer-array>
+
+    <integer-array name="localViewCoordinatesOnRemote">
+        <item>70</item>
+        <item>0</item>
+        <item>30</item>
+        <item>30</item>
+    </integer-array>
+
+    <integer-array name="local_view_coordinates">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+
+    <integer-array name="local_view_coordinates_on_remote">
+        <item>70</item>
+        <item>0</item>
+        <item>30</item>
+        <item>30</item>
+    </integer-array>
+
+    <integer-array name="local_view_coordinates_local_preview_peer2peer_screen">
+        <item>4</item>
+        <item>20</item>
+        <item>22</item>
+        <item>27</item>
+    </integer-array>
+
+    <integer-array name="local_view_coordinates_preview_multi_screen">
+        <item>4</item><!--marginleft-->
+        <item>20</item><!--margintop-->
+        <item>22</item><!--width-->
+        <item>33</item><!--height-->
+    </integer-array>
+
+    <!-- Gray 라이브러리를 위한 값 -->
+
+    <string-array name="Spectral">
+        <item>#9E0142</item>
+        <item>#D53E4F</item>
+        <item>#F46D43</item>
+        <item>#FDAE61</item>
+        <item>#FEE08B</item>
+        <item>#FFFFBF</item>
+        <item>#E6F598</item>
+        <item>#ABDDA4</item>
+        <item>#66C2A5</item>
+        <item>#3288BD</item>
+        <item>#5E4FA2</item>
+    </string-array>
+
+    <string-array name="falcon">
+        <item>#106fff</item>
+        <item>#80e5ff</item>
+        <item>#1048a3</item>
+        <item>#bce5ff</item>
+    </string-array>
+
+    <string-array name="bubble">
+        <item>#41ffffff</item>
+        <item>#18ffffff</item>
+        <item>#1fffffff</item>
+        <item>#25ffffff</item>
+    </string-array>
+
+    <string-array name="red">
+        <item>#ba0303</item>
+        <item>#ff7878</item>
+        <item>#9e3535</item>
+        <item>#fd3939</item>
+    </string-array>
+
+    <string-array name="black">
+        <item>#000000</item>
+        <item>#252525</item>
+        <item>#1e1e1e</item>
+        <item>#353535</item>
+    </string-array>
+
+
+    <string-array name="walla_colors">
+        <item>#2BA696</item>
+        <item>#22C5B1</item>
+    </string-array>
+
+    <string-array name="Animations">
+        <item>com.github.glomadrian.grav.generator.animation.SideToSideAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.ShakeAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.BallSizeAnimator</item>
+    </string-array>
+
+    <string-array name="BallWaveAnimations">
+        <item>com.github.glomadrian.grav.generator.animation.SideToSideAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.ShakeAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.BallSizeAnimator</item>
+    </string-array>
+
+    <string-array name="GravAnimations">
+        <item>com.github.glomadrian.grav.generator.animation.SideToSideAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.ShakeAnimator</item>
+    </string-array>
+
+    <string-array name="BubbleAnimations">
+        <item>com.github.glomadrian.grav.generator.animation.SideToSideAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.ShakeAnimator</item>
+    </string-array>
+
+
+    <string-array name="FalconAnimations">
+        <item>com.github.glomadrian.grav.generator.animation.SideToSideAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.ShakeAnimator</item>
+    </string-array>
+
+
+    <string-array name="path">
+        <item>com.github.glomadrian.grav.generator.animation.PathAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.BallSizeAnimator</item>
+    </string-array>
+
+    <string-array name="gravAnimations">
+        <item>com.github.glomadrian.grav.generator.animation.PathAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.BallSizeAnimator</item>
+    </string-array>
+
+
+    <string-array name="WallaIcon">
+        <item>com.github.glomadrian.grav.generator.animation.ShakeAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.AlphaAnimator</item>
+    </string-array>
+
+    <integer-array name="walla_points_percent_points">
+        <item>10</item>
+        <item>60</item>
+
+        <item>8</item>
+        <item>30</item>
+
+        <item>25</item>
+        <item>10</item>
+
+        <item>45</item>
+        <item>90</item>
+
+        <item>51</item>
+        <item>15</item>
+
+        <item>70</item>
+        <item>6</item>
+
+        <item>75</item>
+        <item>70</item>
+
+        <item>80</item>
+        <item>45</item>
+
+        <item>95</item>
+        <item>30</item>
+    </integer-array>
+</resources>

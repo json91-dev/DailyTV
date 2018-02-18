@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="net.ossrs.yasea.demo.MainActivity">
+    <item android:id="@+id/original_filter" android:title="Bj 방송국 가기" app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activities.OpencvActivity">
+
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_surface_view" />
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="size"
+        android:textColor="#FFE400"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="height"
+        android:textColor="#FFE400"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/sizeseekbar"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+    <SeekBar
+        android:id="@+id/sizeseekbar"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+
+        android:max="60"
+        android:progress="30"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/size"
+        />
+
+    <SeekBar
+        android:id="@+id/heightseekbar"
+        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:max="300"
+        android:progress="150"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/height"
+        />
+
+
+
+
+    <ListView
+        android:id="@+id/masklistview"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"></ListView>
+    <ImageButton
+
+        android:id="@+id/camerabutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/camerabutton3"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+
+
+        />
+
+
+
+</RelativeLayout>

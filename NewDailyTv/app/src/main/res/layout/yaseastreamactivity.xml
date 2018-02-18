@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--tools:context="net.ossrs.yasea.demo.MainActivity"-->
+
+
+    <net.ossrs.yasea.SrsCameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/glsurfaceview_camera"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+
+        android:src="@drawable/recordbutton"
+        android:id="@+id/publish"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+
+        android:background="@android:color/transparent"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <ImageButton
+
+        android:visibility="invisible"
+
+
+        android:src="@drawable/recordstopbutton"
+        android:id="@+id/publish2"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+
+
+
+        android:background="@android:color/transparent"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+
+
+        />
+
+    <ImageButton
+
+        android:id="@+id/swCam"
+        android:src="@drawable/camerabutton2"
+
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+
+        android:text="switch"
+
+        android:layout_alignParentRight="true"
+
+
+        android:background="@android:color/transparent"
+
+        />
+
+    <ImageButton
+
+        android:id="@+id/chattingbutton"
+        android:src="@drawable/chattingicon"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="3dp"
+
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+
+        android:text="switch"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/swCam"
+
+        android:background="@android:color/transparent"
+
+        />
+
+    <ImageButton
+        android:id="@+id/recordbutton"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/recordicon"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="1dp"
+        android:layout_below="@id/chattingbutton"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:id="@+id/starcheckbtn"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/settingbutton"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="1dp"
+        android:layout_below="@id/recordbutton"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        />
+
+
+
+
+    <Button
+
+
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="record"
+        android:id="@+id/record"
+
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="soft encoder"
+        android:id="@+id/swEnc"
+        android:layout_centerInParent="true"
+
+
+        />
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/accent_material_light" />
+
+    <TextView
+        android:id="@+id/roomtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/accent_material_light"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="7dp"
+        />
+
+    <ImageButton
+
+        android:id="@+id/titlechangbtn"
+        android:src="@drawable/editbutton"
+        android:layout_toRightOf="@id/roomtitle"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/editbutton"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/starPresence_tv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="달풍선 보유 현황 : "
+        android:layout_below="@id/titlechangbtn"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF00DD"
+        />
+
+    <TextView
+        android:id="@+id/starPresence_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100개"
+        android:layout_below="@id/titlechangbtn"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF00DD"
+        android:layout_toRightOf="@id/starPresence_tv_tag"
+        />
+
+    <TextView
+        android:id="@+id/recPresence_tv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/starPresence_tv"
+        android:layout_marginLeft="7dp"
+        android:text="BJ 추천 횟수 : "
+        android:textColor="#FF00DD"
+        android:layout_alignEnd="@id/starPresence_tv_tag"
+
+        />
+
+    <TextView
+        android:id="@+id/recPresence_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/starPresence_tv"
+        android:layout_marginLeft="7dp"
+        android:text="100회"
+        android:layout_alignEnd="@id/starPresence_tv"
+        android:textColor="#FF00DD"
+
+        />
+
+
+    <com.github.glomadrian.grav.GravView
+        android:id="@+id/grav"
+        android:layout_marginTop="80dp"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        app:colorGenerator="com.github.glomadrian.grav.generator.paint.ArrayColorGenerator"
+        app:array_colors="@array/Spectral"
+        app:pointGenerator="com.github.glomadrian.grav.generator.point.RegularPointGenerator"
+        app:regular_cell_size="100"
+        app:regular_variance="200"
+        app:gravGenerator="com.github.glomadrian.grav.generator.grav.BallGenerator"
+        app:ball_size="3dp"
+        app:animationGenerators="@array/BallWaveAnimations"
+        app:side_to_side_min_duration="1000"
+        app:side_to_side_max_duration="3000"
+        app:side_to_side_direction="downToUp"
+        app:shake_variance="50dp"
+        app:ball_size_from_size="3dp"
+        app:ball_size_to_size="6dp"
+        app:shake_direction="horizontal"
+        />
+
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:id="@+id/moonimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:scaleType="fitXY"
+        android:background="@drawable/moon"
+        android:layout_marginLeft="25dp"
+
+        />
+
+    <TextView
+        android:id="@+id/moongift_text"
+        android:layout_below="@id/moonimage"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="네티님께서 달풍선 100개 선물"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+
+    <LinearLayout
+
+
+        android:id="@+id/chat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/sample_app_title"
+            android:text="채팅방 화면"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.1"
+            android:textColor="#ffffff"
+            android:background="@android:color/transparent"
+            />
+
+        <ListView
+
+            android:id="@+id/chat_listview"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:dividerHeight="4px"
+            android:paddingBottom="5dip"
+            android:divider="#00000000"
+            android:background="@android:color/transparent"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:orientation="horizontal"
+            android:padding="10px"
+
+
+            >
+            <Button
+                android:text="버 튼"
+                android:id="@+id/button1"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:background="#F8E41C"
+                android:layout_weight="2"
+                />
+            <EditText
+                android:hint="메세지를 입력하세요"
+                android:id="@+id/textvalue"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:layout_width="0px"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+
+                />
+            <Button
+                android:text="전 송"
+                android:id="@+id/inputbutton"
+                android:background="#F8E41C"
+                android:layout_width="0px"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

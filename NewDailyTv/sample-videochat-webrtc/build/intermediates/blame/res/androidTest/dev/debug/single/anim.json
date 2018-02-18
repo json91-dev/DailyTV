@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\library-3.2.3.aar\\432d3bd05f5927c921f4f2bc1718fbb7\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\507d534ee7b898b96af3a286706c714e\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\slide_in_from_top.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\library-3.2.3.aar\\432d3bd05f5927c921f4f2bc1718fbb7\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\507d534ee7b898b96af3a286706c714e\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\507d534ee7b898b96af3a286706c714e\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\library-3.2.3.aar\\432d3bd05f5927c921f4f2bc1718fbb7\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\507d534ee7b898b96af3a286706c714e\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\slide_out_to_top.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\library-3.2.3.aar\\432d3bd05f5927c921f4f2bc1718fbb7\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\tooltip_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\50bfc5c7a3dbeb5d80c81eb456efbe4d\\res\\anim\\abc_popup_exit.xml"
+    }
+]

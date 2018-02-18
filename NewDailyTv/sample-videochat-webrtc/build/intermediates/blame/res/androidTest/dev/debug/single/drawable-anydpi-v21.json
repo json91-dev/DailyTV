@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\507d534ee7b898b96af3a286706c714e\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-videochat-webrtc\\build\\intermediates\\res\\merged\\androidTest\\dev\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\507d534ee7b898b96af3a286706c714e\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    }
+]

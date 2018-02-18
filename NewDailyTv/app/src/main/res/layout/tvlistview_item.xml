@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="10dp"
+    android:duplicateParentState="false"
+    android:descendantFocusability="blocksDescendants"
+    android:background="#EDEDED"
+    >
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/screenimage"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+
+            android:id="@+id/mark"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/screenimage"
+            android:layout_alignTop="@id/screenimage"
+            android:scaleType="fitXY"
+            android:src="@drawable/livemark" />
+        <TextView
+            android:id="@+id/roomtitle"
+            android:layout_toRightOf="@id/screenimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오늘도 좋은하루 되세요"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:layout_alignTop="@id/screenimage"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/bjnickname"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="펭귄"
+            android:textColor="#0000ff"
+            android:layout_toRightOf="@id/screenimage"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/viewernumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#BDBDBD"
+            android:layout_toRightOf="@id/screenimage"
+
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@id/screenimage"
+            />
+
+        <TextView
+
+            android:id="@+id/viewernumbertag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/viewernumber"
+            android:layout_alignBottom="@+id/viewernumber"
+            android:layout_toEndOf="@+id/viewernumber"
+            android:text="명 시청중"
+            android:textColor="#BDBDBD" />
+
+        <ImageButton
+            android:id="@+id/optionmenubutton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/optionbutton"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+
+            android:layout_alignTop="@id/screenimage"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginRight="5dp"
+
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:background="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_gravity="center_horizontal"
+
+
+        >
+        <EditText
+            android:id="@+id/comment_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:hint="댓글을 입력해주세요."
+
+
+            />
+        <Button
+            android:id="@+id/comment_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="작성"
+            android:textColor="#7DB9BC"
+            android:background="@android:color/transparent"
+            />
+
+
+    </LinearLayout>
+
+
+

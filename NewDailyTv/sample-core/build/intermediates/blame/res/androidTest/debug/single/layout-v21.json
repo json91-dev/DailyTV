@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\51dc23473155db37c935b37ad26f7b9a\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\51dc23473155db37c935b37ad26f7b9a\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\51dc23473155db37c935b37ad26f7b9a\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\androidproject\\NewDailyTv\\sample-core\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\51dc23473155db37c935b37ad26f7b9a\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

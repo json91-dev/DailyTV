@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="250dp"
+    android:layout_height="220dp"
+    android:background="#EDEDED"
+    android:paddingLeft="20dp"
+    >
+
+    <TextView
+        android:id="@+id/titletag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BJ 룸"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+
+
+
+
+    <ImageView
+        android:id="@+id/imagetag1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/titletag"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/moon"
+        />
+
+    <TextView
+        android:id="@+id/tag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titletag"
+        android:layout_toRightOf="@id/imagetag1"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="20dp"
+        android:text="보유 현황 : "
+        android:textColor="#000000"
+        />
+
+    <TextView
+
+        android:id="@+id/starcount_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100개"
+        android:textColor="#000000"
+        android:layout_below="@id/titletag"
+        android:layout_toRightOf="@id/tag1"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imagetag2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/imagetag1"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/likeimage"
+        />
+
+    <TextView
+        android:id="@+id/tag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagetag1"
+        android:layout_toRightOf="@id/imagetag2"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="추천 횟수 : "
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/reccount_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100회"
+        android:textColor="#000000"
+        android:layout_below="@id/imagetag1"
+        android:layout_toRightOf="@id/tag2"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닫기"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

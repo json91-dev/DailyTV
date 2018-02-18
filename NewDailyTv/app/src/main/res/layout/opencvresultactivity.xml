@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dip"
+    android:paddingTop="10dp"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/pictureimage"
+        android:layout_width="match_parent"
+        android:layout_height="250dip"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Filter"
+        android:layout_marginTop="5dp"
+        />
+
+    <HorizontalScrollView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="340dip"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/round_box"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="5dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbHorizontal="@drawable/scrollbar_bg1"
+        android:scrollbarTrackHorizontal="@drawable/scrollbar_bg2"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+
+            >
+
+            <LinearLayout
+
+                android:id="@+id/filterorgin"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/filterorigin"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="original"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/filter1"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:src="@drawable/filtergray"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gray"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/filter2"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                >
+                <ImageView
+                    android:src="@drawable/filter2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sea"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/filter3"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/filter3"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sketch"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/filter4"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/filter2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="filter5"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:layout_width="310dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        >
+
+        <Button
+
+            android:id="@+id/cancelbutton"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:background="@drawable/button4"
+
+            />
+
+        <Button
+            android:id="@+id/okbutton"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/button4"
+            android:text="확인"
+
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

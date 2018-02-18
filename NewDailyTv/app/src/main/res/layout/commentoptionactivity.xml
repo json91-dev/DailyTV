@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="80dp"
+    android:background="#88EDEDED"
+
+    >
+    <TextView
+        android:textColor="#FF007F"
+        android:text="이 댓글을 추천, 신고 하시겠습니까?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+
+        />
+    <Button
+        android:id="@+id/likeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:text="추천하기"
+        />
+
+    <Button
+
+        android:id="@+id/reportButton"
+        android:text="신고하기"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:text="취소"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

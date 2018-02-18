@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="13dp"
+    android:background="#EDEDED"
+
+    >
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/captinmask"
+
+            />
+
+        <TextView
+
+            android:id="@+id/c_nickname"
+            android:layout_toRightOf="@id/circleimage"
+            style="@style/myTextStyle"
+            android:text="정엽"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+
+            />
+
+        <TextView
+            android:layout_below="@id/c_nickname"
+            android:layout_alignBottom="@id/circleimage"
+            android:layout_toRightOf="@id/circleimage"
+            android:gravity="bottom"
+            android:layout_alignStart="@id/c_nickname"
+
+            android:id="@+id/c_date"
+            android:textSize="12dp"
+            android:layout_marginTop="3dp"
+            android:text="2017년 3월 4일"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/c_like"
+            style="@style/myTextStyle"
+            android:text="하트 5개"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/commentText"
+            android:layout_below="@id/circleimage"
+            android:layout_alignStart="@id/circleimage"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:text="안녕하세요"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
